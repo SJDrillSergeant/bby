@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="Homepage - personal projects and relevant information">
+        <meta name="author" content="Stefan Jonss">
+        <title>Stefan Jonsson |  Project 5</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <!-- Efsti flipinn á síðunni -->
+        <header>
+            <div class="container">
+                <div id="logo">
+                    <h1>Stefan Jonsson</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="resume.html">CURRICULUM VITAE</a></li>
+                        <li class="current"><a href="projects.html">PROJECTS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <!-- aðal-->
+        <section id="main">
+            <div class="container">
+                <article id="head-main">
+                    <h2>space</h2>
+                        <ul id="project5">
+                            
+                            <font color="ffffff"><h2>THE GROUP</h2>
+                            
+                            <p><p><font color="ffffff">The group consists of myself, <a href="https://sjdrillsergeant.github.io/bby/">Stefán Jónsson</a>, my great friend <a href="https://joelinga.github.io/">Jóel Ingason</a> and my colleague, <a href="https://isakernir1.github.io/framleidsluferli/">Ísak Ernir Sveinbjörnsson.</a></font></p></font>
+                            
+                            <font color="ffffff"><h2>THE OBJECTIVE OF OUR LABOR</h2>
+                            
+                            <p>The objective of this group project was to design and simulate the milling of a mold. Let us begin.  </p>
+                                
+                             <p>My contribution to the project was preparing the toolpaths and making the simulation for the mold. I prepared the toolpaths for the 3D model in collaboration with Jóel Ingason </p></font>
+                            
+                            <font color="ffffff"><h2>PREPARATION</h2>
+                                
+                            <p>My experience with Fusion 360 enabled me to just launch the software and begin sketching.</p>
+                            
+                            <h3>SOFTWARE AND TOOLS</h3>
+										<ul>
+											<li>Fusion 360: <a href="https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&support=null">link</a>.</li>
+										</ul>
+										<h4>Fusion 360</h4>
+										<p>Fusion 360 is a cloud-based CAD/CAM tool for collaborative product development.</p></font>
+                            
+                            <font color="ffffff"><h2>THE DESIGN</h2>
+                                
+                            <p>Another member of the group,<a href="https://isakernir1.github.io/framleidsluferli/">Ísak Ernir Sveinbjörnsson</a>, designed the 3D model. You can find the procedure on his <a href="https://isakernir1.github.io/framleidsluferli/verkefni5.html"> website.</a></p>
+                            
+                            <p>We started off with making the initial setup. The orientation of the model was defined, selecting the proper operation type (milling) and picking the axis of the 3D model. The initial setup can be seen on the image below. </p></font>
+                                                        
+                            <!--PICTURE-->
+                            <img src="1_5.jpg" width="890" height="400">
+                            
+                            <p><font color="ffffff">We then proceded to set to mode in the stock section to "Relative size box" and the stock offset mode to "No additional stock". </font></p>    
+            
+                            <img src="2_5.jpg" width="890" height="430">
+                            
+                            <p><font color="ffffff">The result being: </font></p>
+                               
+                            <img src="3_5.jpg" width="890" height="490">
+                            
+                            <p><font color="ffffff">Then we had to define the roughing toolpath. The first toolpath to be defined is the roughing toolpath that carves out a rough representation of the model. We used a stock 2mm diameter tip and left the Feed and Speed settings at default values. </font></p>
+                               
+                            <img src="4_5.jpg" width="890" height="430">
+                            
+                            <p><font color="ffffff">We then defined the geometry that represents the model. This took a lot of trial and error to get right since it is very important to only select the faces of the object you wish to cut out and the order of the selection is the order in which it is cut out. </font></p>
+                         
+                            <img src="5_5.jpg" width="890" height="450">
+                                    
+                            <p><font color="ffffff">The top and bottom heights are then defined as the model top and bottom.</font></p>
+                            
+                            <img src="6_5.jpg" width="890" height="450">
+                            
+                            <p><font color="ffffff">Fusion 360 then calculated the toolpaths for us.</font></p>    
+            
+                            <img src="7_5.jpg" width="890" height="490">
+                            
+                            <p><font color="ffffff">Now we had to make the finishing toolpaths. After the roughing toolpaths were done we proceded to make the finishing toolpaths. we decided to go with the "Paralell" finishing. </font></p>
+                               
+                            <img src="8_5.jpg" width="890" height="490">
+                            
+                            <p><font color="ffffff">The tolerance was defined as 0.1mm and we added perpendicular Passes in order to get some parts that were not being milled properly. </font></p>
+                               
+                            <img src="9_5.jpg" width="890" height="450">
+                            
+                            <p><font color="ffffff">The top and bottom heights are then defined as the model top and bottom. </font></p>
+                            
+                            <p><font color="ffffff">Here you can see the resulting paths of the finishing toolpath.</font></p>
+                         
+                            <img src="10_5.jpg" width="890" height="500">
+                            
+                            <p><font color="ffffff">To simulate the toolpaths we right clicked the "setup1" tab and choose "simulate" the resulting video of the simulation is here: </font></p>
+                               
+                            <video controls="controls" width="1200" height="900" 
+                            name="Animation" src="sim.mp4"></video>
+                               
+
+                            <p><font color="ffffff">The Fusion 360 file can be found here. <a href="https://github.com/JoelInga/JoelInga.github.io/tree/main/assets/verk5">Github link to model</a></font></p>
+                            
+                            <h2><font color="ffffff">DESIGNING THE 3D MODEL</font></h2>
+                            <p><font color="ffffff">Another member of the group, Ísak Ernir, made the 3D model of the LEGO brick. A link explaining the procedure can be found <a href="https://isakernir1.github.io/framleidsluferli/verkefni5.html">here.</a></font></p>
+                    
+                     
+                    </ul>
+                </article>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Stefan Jonsson, Copyright &copy; 2020</p>
+        </footer>
+        
+    </body>
+</html>
